@@ -67,6 +67,7 @@ int main(int argc, char* argv[]) {
     return 0;
   }
 
+  //随机种子初始化
   std::srand((uint32_t)tendisplus::msSinceEpoch());
 
   tendisplus::gParams = std::make_shared<tendisplus::ServerParams>();
